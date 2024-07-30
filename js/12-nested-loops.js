@@ -1,3 +1,5 @@
+// https://docs.google.com/document/d/1yB6ErFdyjXWh7INfikVXyVpZ5sTM-htDnYth5FXK0sM/edit?usp=sharing
+
 "use strict";
 
 // count the char in a string
