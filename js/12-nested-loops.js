@@ -222,4 +222,21 @@ let arr = [
   [4, 5, 6],
   [7, 8, 9],
 ];
-searchInArray(arr, 6);
+// searchInArray(arr, 6);
+
+function countVowles(string) {
+  let vowels = "aeiouAEIOU";
+  let count = 0;
+
+  for (let i = 0; i < string.length; i++) {
+    for (let j = 0; j < vowels.length; j++) {
+      if (string[i] === vowels[j]) {
+        count++;
+      }
+    }
+  }
+
+  console.log("count: ", count);
+}
+
+countVowles("omer");
